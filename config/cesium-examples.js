@@ -167,6 +167,17 @@ data.map(id => {
 
 })
 
+
+const others = []
+Object.keys(obj).map(v => {
+    if (obj[v].length < 2) {
+        others.push(...obj[v])
+        delete obj[v]
+    }
+})
+
+obj['others'] = others
+
 const list = Object.keys(obj).map(groupid => ({
     pid: groupid,
     name: groupid,

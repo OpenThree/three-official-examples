@@ -319,12 +319,22 @@ data.map(id => {
 
 })
 
+const others = []
+Object.keys(obj).map(v => {
+    if (obj[v].length < 3) {
+        others.push(...obj[v])
+        delete obj[v]
+    }
+})
+
+obj['others'] = others
+
 const list = Object.keys(obj).map(groupid => ({
     pid: groupid,
     name: groupid,
     children: obj[groupid].map(id => ({
         id,
-        name:id.replace(/webgl_/,''),
+        name: id.replace(/webgl_/, ''),
         htmlUrl: 'https://threejs.org/examples/' + id + '.html',
         image: 'https://threejs.org/examples/screenshots/' + id + '.jpg',
     }))
