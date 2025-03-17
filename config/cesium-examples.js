@@ -1,4 +1,5 @@
-const data = [	"webgpu_animation_retargeting",
+const data = [
+    "webgpu_animation_retargeting",
     "webgpu_animation_retargeting_readyplayer",
     "webgpu_backdrop",
     "webgpu_backdrop_area",
@@ -153,8 +154,8 @@ const data = [	"webgpu_animation_retargeting",
     "webgpu_volume_cloud",
     "webgpu_volume_perlin",
     "webgpu_water",
-    "webgpu_xr_cubes"]
-
+    "webgpu_xr_cubes"
+]
     const obj = {}
 
 data.map(id => {
