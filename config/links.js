@@ -10,7 +10,7 @@ export default {
         footLink: HOST
     },
     links: [
-       
+
         {
             name: '💎WebGL',
             url: 'https://openthree.github.io/three-cesium-examples/'
@@ -19,10 +19,10 @@ export default {
             name: '🍏Editor',
             url: 'https://z2586300277.github.io/threejs-editor/'
         },
-     // {
-        //     name: '🔥WebGPU',
-        //     url: 'https://openthree.github.io/webgpu'
-        // },
+        {
+            name: '🔥WebGPU',
+            url: 'https://openthree.github.io/webgpu'
+        },
         {
             name: '🍃OpenThree',
             url: 'https://openthree.github.io/three-cesium-links/'
