@@ -1,8 +1,8 @@
+import { HOST, FILE_HOST } from "./host.js";
 import cesiumExamples from "./cesium-examples.js";
 import threeExamples from "./three-examples.js";
 import threeCesiumAuthors from "./author.js";
 import threeCesiumLinks from "./links.js";
-import { HOST, FILE_HOST } from "./host.js";
 
 window.THREE_CESIUM_LINKS = threeCesiumLinks; // 链接
 
@@ -17,13 +17,13 @@ window.GLOBAL_CONFIG = {
     FILE_HOST, getFileUrl(url) {
 
         return FILE_HOST + url
-        
+
     }
 
 } // 全局配置
 
-window.HTML_TEMPLATE = 
-`<style>
+window.HTML_TEMPLATE =
+    `<style>
     body {
         margin: 0;
         padding: 1px;
@@ -81,7 +81,7 @@ window.THREE_CESIUM_NAVIGATION = [
 window.THREE_CESIUM_AUTHORS = threeCesiumAuthors; // 作者
 
 /* 语言切换 */
-if (localStorage.getItem('langEn')==='true') {
+if (localStorage.getItem('langEn') === 'true') {
 
     window.THREE_CESIUM_NAVIGATION.forEach(item => {
 

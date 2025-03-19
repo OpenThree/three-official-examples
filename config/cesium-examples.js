@@ -1,4 +1,4 @@
-const data = [
+const data = window.threejs_org_examples_files?.WebGPU || [
     "webgpu_animation_retargeting",
     "webgpu_animation_retargeting_readyplayer",
     "webgpu_backdrop",

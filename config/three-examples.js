@@ -1,4 +1,4 @@
-const data = [
+const data = window.threejs_org_examples_files?.WebGL || [
     "webgl_animation_keyframes",
     "webgl_animation_skinning_blending",
     "webgl_animation_skinning_additive_blending",
@@ -359,7 +359,7 @@ const data = [
     "webgl_pmrem_test",
     "misc_uv_tests"
 ]
-console.log(data.length)
+
 const obj = {}
 
 data.map(id => {
