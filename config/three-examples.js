@@ -364,7 +364,9 @@ const obj = {}
 
 data.map(id => {
 
-    const groupid = id.split('_')[1]
+    const arr = id.split('_')
+
+    const groupid = ['webgl', 'webxr', 'misc'].includes(arr[0]) ? arr[1] : arr[0]
 
     if (!obj[groupid]) obj[groupid] = []
 
