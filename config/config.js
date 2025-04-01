@@ -6,6 +6,14 @@ import threeCesiumLinks from "./links.js";
 
 window.THREE_CESIUM_LINKS = threeCesiumLinks; // 链接
 
+threeExamples[0].children.unshift(    {
+    id: 'officialExamples',
+    name: 'Offical-Examples-Online-Run',
+    tag: 'RUN',
+    openUrl: 'https://openthree.github.io/three-offical-run/examples/',
+    image: 'https://z2586300277.github.io/three-cesium-examples/threeExamples/openSource/official.jpg' 
+},)
+
 window.HOST = HOST // 当前项目服务 host 地址, 注入到全局变量
 
 window.FILE_HOST = FILE_HOST // 文件资源服务器地址, 注入到全局变量
