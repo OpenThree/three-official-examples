@@ -22,20 +22,16 @@ const requestOffical = () => fetch('https://threejs.org/examples/files.json').th
 
     localStorage.setItem('threejs_org_examples_files', JSON.stringify(threeorg))
 
-    window.threejs_org_examples_files = threeorg
-
 })
 
-let threejs_org_examples_files = localStorage.getItem('threejs_org_examples_files')
+const storage = JSON.parse(localStorage.getItem('threejs_org_examples_files'))
 
-if (!threejs_org_examples_files) requestOffical()
+if(!storage) requestOffical()
 
 else {
 
-    const storage = JSON.parse(threejs_org_examples_files)
+    window.threejs_org_examples_files = storage
 
     if (new Date() - new Date(storage.Date) > 86400000) requestOffical()
-
-    else window.threejs_org_examples_files = storage
 
 }
