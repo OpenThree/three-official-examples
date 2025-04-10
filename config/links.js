@@ -11,7 +11,7 @@ export default {
     },
     links: [
         {
-            name: '🏠Official-Plus',
+            name: '🏠Official-Run',
             url: 'https://openthree.github.io/three-offical-run/examples/'
         },
         {
