@@ -30,9 +30,13 @@ export default {
             name: '🍃OpenThree',
             url: 'https://openthree.github.io/three-cesium-links/'
         },
+        // {
+        //     name: '🍁Editor',
+        //     url: 'https://z2586300277.github.io/three-editor/dist/#/editor'
+        // },
         {
-            name: '🍁Editor',
-            url: 'https://z2586300277.github.io/three-editor/dist/#/editor'
+            name: '⚡下载',
+            url: 'https://pan.quark.cn/s/be4fcfa29e22'
         }
     ]
 }
