@@ -36,7 +36,7 @@ export default {
         //     url: 'https://z2586300277.github.io/three-editor/dist/#/editor'
         // },
         {
-            name: '⚡下载',
+            name: '⚡' + TEXTS.download,
             url: 'https://pan.quark.cn/s/be4fcfa29e22'
         }
     ]

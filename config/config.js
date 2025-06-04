@@ -1,3 +1,4 @@
+import './lang.js'
 import { HOST, FILE_HOST } from "./host.js";
 import cesiumExamples from "./cesium-examples.js";
 import threeExamples from "./three-examples.js";
