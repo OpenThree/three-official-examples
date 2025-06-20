@@ -17,7 +17,8 @@ export default {
         },
         {
             name: '💎WebGL',
-            url: 'https://openthree.github.io/three-cesium-examples/'
+            url: 'https://z2586300277.github.io/three-cesium-examples/'
+            // url: 'https://openthree.github.io/three-cesium-examples/'
         },
         // {
         //     name: '🍏Editor',
@@ -31,10 +32,10 @@ export default {
             name: '🍃OpenThree',
             url: 'https://openthree.github.io/three-cesium-links/'
         },
-        // {
-        //     name: '🍁Editor',
-        //     url: 'https://z2586300277.github.io/three-editor/dist/#/editor'
-        // },
+        {
+            name: '🍁Editor',
+            url: 'https://z2586300277.github.io/three-editor/dist/#/editor'
+        },
         {
             name: '⚡' + TEXTS.download,
             url: 'https://pan.quark.cn/s/be4fcfa29e22'
